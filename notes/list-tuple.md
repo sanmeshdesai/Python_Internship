@@ -1,11 +1,11 @@
-Aspect	List	Tuple
-Mutability	Mutable (elements can be changed)	Immutable (elements cannot be changed)
-Memory Allocation	Uses more memory	Uses less memory
-Performance	Slower for iteration	Faster for iteration
-Hashability	❌ Not hashable	✅ Hashable (if elements are hashable)
-Thread Safety	Not thread-safe	Thread-safe (due to immutability)
-Use as Dictionary Key	❌ Not allowed	✅ Allowed
-Built-in Methods	Many methods (append, pop, remove)	Limited methods (count, index)
-Data Integrity	Can be modified accidentally	Data remains constant
-Memory Optimization	Less efficient	More efficient
-Use in Functional Programming	Rare	Preferred
+Difference Between List and Tuple in Python
+Feature List Tuple
+Mutability Mutable Immutable
+Syntax [] ()
+Modification Can be modified Cannot be modified
+Performance Slower Faster
+Memory Usage More memory Less memory
+Use Case Dynamic data Fixed data
+Built-in Methods Many methods Limited methods
+Safety Less safe More safe
+Hashable Not hashable Hashable (if elements immutable)
