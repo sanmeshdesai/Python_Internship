@@ -134,4 +134,4 @@ class Payment:
     amount = 10000
 
     def addPaymentMethod(self):
-        print('')
+        print('payment method added')
